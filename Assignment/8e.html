@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>uber</title>
+    <style>
+      .first-text {
+        font-family: arial;
+        font-size: 30px;
+        margin-bottom: 15px;
+      }
+      .first-input {
+        display: block;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.11);
+        width: 300px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        margin-bottom: 5px;
+      }
+      .second-input {
+        display: block;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.11);
+        width: 300px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        margin-bottom: 24px;
+      }
+      .first-button {
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 10px;
+        padding-bottom:  10px;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-right: 10px;
+        transition: background-color 0.25s,
+        color 0.25s;
+      }
+      .first-button:hover {
+        background-color: white;
+        color: black;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+      }
+      .first-button:active {
+        background-color: rgba(128, 128, 128, 0.11);;
+      }
+      .second-button {
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 10px;
+        padding-bottom:  10px;
+        border: none;
+        transition: background-color 0.25s,
+        color 0.25s;
+      }
+      .second-button:hover {
+        background-color: black;
+        color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="first-text">
+      Request a ride now
+    </p>
+    <input class="first-input" type="text" placeholder="Enter pickup location">
+    <input class="second-input" type="text" placeholder="Enter destination">
+    <button class="first-button">
+      Request now
+    </button>
+    <button class="second-button">
+      Schedule for later
+    </button>
+  </body>
+</html>

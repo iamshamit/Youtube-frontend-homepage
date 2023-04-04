@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout</title>
+        <style>
+            p {
+                font-family: Arial;
+                font-size: 13px;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .follow-preview {
+                margin-bottom: 12px;
+            }
+            .image-div {
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+            .text-div {
+                display: inline-block;
+                vertical-align: middle;
+                width: 150px;
+            }
+            .button-div {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .image {
+               width: 40px; 
+               height: 40px;
+               border-radius: 60px;
+            }
+            .name {
+                font-weight: bold;
+                margin-bottom: 3px;
+            }
+            .type {
+                color: rgb(96,96,96);
+                margin-bottom: 3px;
+            }
+            .popular {
+                color: rgb(96,96,96);
+                font-size: 12px;
+            }
+            .follow {
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-right: 10px;
+                padding-left: 10px;
+                border: none;
+                background-color: rgb(24, 119, 242);
+                color: white;
+                border-radius: 6px;
+                transition:  background-color 0.25s,
+                color 0.25s;
+            }
+            .follow:hover {
+                background-color: white;
+                color: rgb(24, 119, 242);
+                border: solid;
+                border-width: 1px;
+                border-color: rgb(24, 119, 242);
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-right: 9px;
+                padding-left: 9px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="follow-preview">
+            <div class="image-div">
+                <img src="pictures/cat.jpg" alt="cat" class="image">
+            </div>
+            <div class="text-div">
+                <p class="name">
+                    oliver
+                </p>
+                <p class="type">
+                    the cat
+                </p>
+                <p class="popular">
+                    Popular
+                </p>
+            </div>
+            <div class="button-div">
+                <button class="follow">
+                    Follow
+                </button>
+            </div>
+        </div>
+        <div class="follow-preview">
+            <div class="image-div">
+                <img src="pictures/cat2.jpg" alt="cat" class="image">
+            </div>
+            <div class="text-div">
+                <p class="name">
+                    Mimi
+                </p>
+                <p class="type">
+                    Sleepy cat
+                </p>
+                <p class="popular">
+                    Popular
+                </p>
+            </div>
+            <div class="button-div">
+                <button class="follow">
+                    Follow
+                </button>
+            </div>
+        </div>
+        <div class="follow-preview">
+            <div class="image-div">
+                <img src="pictures/dog.jpg" alt="cat" class="image">
+            </div>
+            <div class="text-div">
+                <p class="name">
+                    Rex
+                </p>
+                <p class="type">
+                    Happy Bulldog
+                </p>
+                <p class="popular">
+                    Popular
+                </p>
+            </div>
+            <div class="button-div">
+                <button class="follow">
+                    Follow
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

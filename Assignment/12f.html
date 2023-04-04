@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Header</title>
+        <style>
+            .header {
+                display: flex;
+                flex-direction: row;
+                height: 50px;
+                background-color: rgb(97, 70, 147);
+                justify-content: space-between;
+                align-items: center;
+            }
+            .search {
+                flex: 1;
+                text-align: center;
+                max-width: 500px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .search-input {
+                width: 90%;
+                border: none;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 19px;
+                border-radius: 15px;
+            }
+            .home-button {
+                border: none;
+                background-color: rgb(97, 70, 147);
+                color: white;
+                margin-left: 7px;
+                font-weight: bold;
+                transition: all 0.25s;
+            }
+            .home-button:hover {
+                cursor: pointer;
+                color: lightblue;
+            }
+            .home-button:active {
+                color: aqua;
+            }
+            .download-button {
+                margin-right: 8px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 9px;
+                padding-right: 9px;
+                background-color: rgb(97, 70, 147);
+                border-style: solid;
+                border-color: white;
+                border-width: 2px;
+                color: white;
+                transition: all 0.25s;
+            }
+            .download-button:hover {
+                background-color: rgb(104, 80, 148);
+            }
+            .download-button:active {
+                background-color: rgb(110, 96, 133);
+            }
+        </style>
+    </head>
+    <body style="margin: 0px;">
+        <div class="header">
+            <div class="Home">
+                <button class="home-button">Home</button>
+            </div>
+            <div class="search">
+                <input class="search-input" type="text" placeholder="Search">
+            </div>
+            <div class="download">
+                <button class="download-button">Download</button>
+            </div>
+        </div>
+    </body>
+</html>
